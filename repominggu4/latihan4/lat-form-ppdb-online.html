@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulir PPDB Jalur Zoasi 2020</title>
+</head>
+<body>
+	<h2 align="center">FORMULIR PPDB JALUR ZONASI TAHUN 2020</h2>
+	<table align="right" style="background-color: blue;color: white">
+		<tr>
+			<td>
+				<h3 style="color: white;">Berkas Pendukung Pendaftaran</h3>
+				<form action="upload.php" method="POST" enctype="multipart/form-data">
+					<p align="right">Berkas file foto copy ijasah : <input type="file" name="berkas"></p>
+				</form>
+				<form action="upload.php" method="POST" enctype="multipart/form-data">
+					<p align="right">Berkas file foto copy akte kelahiran : <input type="file" name="berkas"></p>
+				</form>
+				<form action="upload.php" method="POST" enctype="multipart/form-data">
+					<p align="right">Berkas file lampiran KK : <input type="file" name="berkas"></p>
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td align="center"><input type="submit" name="submit" value="UPDATE" style="background-color: red ;color: white;"></td>
+		</tr>
+	</table>
+	<form action="formulir.php" method="POST">
+	<table border="1"  width= "45%" cellpadding="0" cellspacing="0" >
+		<tr style="background-color: blue; color: white;">
+			<td align="center"><b>Nomor</b></td>
+			<td colspan="3" align="center"><b>INFO PENDAFTARAN</b></td>
+		<tr>
+			<td>1</td>
+			<td>NISN</td>
+			<td colspan="3"><input type="text" name="NISN"></td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Asal Sekolah</td>
+			<td colspan="3"><input type="text" name="asalsekolah"></td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Tahun Lulus</td>
+			<td><input type="text" name="tahunlulus"></td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>DATA CALON PESERTA</b></td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Nama Lengkap</td>
+			<td><input type="text" name="namalengkap"></td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>NIK</td>
+			<td><input type="text" name="NIK"></td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>Tempat/Tanggal Lahir</td>
+			<td><input type="text" name="ttl"></td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>Jenis Kelamin</td>
+			<td><input type="text" name="jeniskelamin"></td>
+		</tr>
+		<tr>
+			<td>8</td>
+			<td>Alamat</td>
+			<td><input type="text" name="alamat"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="right">Desa/Kel</td>
+			<td><input type="text" name="deskel"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="right">Kecamatan</td>
+			<td><input type="text" name="Kecamatan"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="right">Kabupaten</td>
+			<td><input type="text" name="kabupaten"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="right">Provinsi</td>
+			<td><input type="text" name="provinsi"></td>
+		</tr>
+		<tr>
+			<td>9</td>
+			<td>Email Aktif</td>
+			<td><input type="text" name="email"></td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>DATA ORANG TUA</b></td>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td>Nomor Kartu Keluarga</td>
+			<td><input type="text" name="nomorkk"></td>
+		</tr>
+		<tr>
+			<td>11</td>
+			<td>Nama Ayah Kandung</td>
+			<td><input type="text" name="namaayah"></td>
+		</tr>
+		<tr>
+			<td>12</td>
+			<td>Agama</td>
+			<td><input type="text" name="agama"></td>
+		</tr>
+		<tr>
+			<td>13</td>
+			<td>Pekerjaan</td>
+			<td><input type="text" name="pekerjaan"></td>
+		</tr>
+		<tr>
+			<td>14</td>
+			<td>Nama Ibu Kandung</td>
+			<td><input type="text" name="namaibu"></td>
+		</tr>
+		<tr>
+			<td>15</td>
+			<td>Agama</td>
+			<td><input type="text" name="agama"></td>
+		</tr>
+		<tr>
+			<td>16</td>
+			<td>Pekerjaan</td>
+			<td><input type="text" name="pekerjaan"></td>
+		</tr>
+		<tr>
+			<td>17</td>
+			<td>Alamat Orang Tua</td>
+			<td><input type="text" name="alamatortu"></td>
+		</tr>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="right">Desa/Kel</td>
+			<td><input type="text" name="deskel"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="right">Kecamatan</td>
+			<td><input type="text" name="Kecamatan"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="right">Kabupaten</td>
+		<td><input type="text" name="kabupaten"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="right">Provinsi</td>
+			<td><input type="text" name="provinsi"></td>
+		</tr>
+	</table>
+	<br><br>
+	</form>
+	<form action="formulir.php" method="POST" align= "center">
+		<input  type="submit" name="submit" value="UPLOAD" style="background-color: red ;color: white;">
+	</form>
+</body>
+</html>
