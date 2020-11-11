@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DAFTAR SINAU ONLINE</title>
+</head>
+<body style= "background-image : url(image/background2.jpg);">
+	<h2 align="center">DAFTAR SINAU ONLINE</h2>
+	<form action="formulir.php" method="POST">
+	<table cellpadding= "7" align="center" border="0"  width= "70%" cellpadding="0" cellspacing="0" >
+		<tr style="background-color: Blue; color: white;">
+			<td colspan="3" align="center"><b>ISI PENDAFTARAN</b></td>
+			<td align="center"><b></b></td>
+		</tr>
+		<tr>
+			<td>Nama Lengkap</td>
+			<td></td>
+			<td><input width= "100%" type="text" name="namalengkap"></td>
+		</tr>
+		<tr>
+			<td>Tempat/Tanggal Lahir</td>
+			<td></td>
+			<td><input type="text" name="ttl"></td>
+		</tr>
+		<tr>
+			<td>Jenis Kelamin</td>
+			<td></td>
+			<td><input type="text" name="jeniskelamin"></td>
+		</tr>
+		<tr>
+			<td>Alamat</td>
+			<td></td>
+			<td><input type="text" name="alamat"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Desa/Kel</td>
+			<td><input type="text" name="deskel"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Kecamatan</td>
+			<td><input type="text" name="Kecamatan"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Kabupaten</td>
+			<td><input type="text" name="kabupaten"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Provinsi</td>
+			<td><input type="text" name="provinsi"></td>
+		</tr>
+		<tr>
+			<td>Status Pendidikan:</td>
+			<td></td>
+			<td>
+				<select name="Status">
+				<option value="TK">TK</option>
+				<option value="SD">SD</option>
+				<option value="SMP">SMP</option>
+				<option value="SMA">SMA</option>
+				<option value="D1">D1</option>
+				<option value="D2">D2</option>
+				<option value="D3">D3</option>
+				<option value="S1/D4">S1/D4</option>
+				<option value="S2">S2</option>
+				<option value="S3">S3</option>
+			</td>
+			</select>
+		</tr>
+		<tr>
+			<td>Email Aktif</td>
+			<td></td>
+			<td><input type="text" name="email"></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td></td>
+			<td><input type="text" name="password"></td>
+		</tr>
+	</table>
+	<br><br>
+	</form>
+	<form method="POST" align= "center">
+		<input  type="submit" name="submit" value="DAFTAR" style="background-color: Green ;color: white;">
+	</form>
+</body>
+</html>
