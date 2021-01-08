@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,3 +13,4 @@
  hasil.innerHTML = "<p>Aku suka Javascript</p>";
  </script>
 </body>
+</html>
